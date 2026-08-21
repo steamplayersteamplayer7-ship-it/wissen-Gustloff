@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fredoka:wght@300..700&family=Jersey+10&family=Lexend:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap');
+:root {
+--primary-color:  rgb(255, 255, 255);
+--secondary-color: black;
+
+
+}
+
+.darkmode {
+    --primary-color:  rgb(49, 48, 48);
+    --secondary-color: rgb(255, 255, 255);
+}
+
+body {
+     background-color: var(--primary-color);
+
+}
+
+
+
+#modeswitch {
+ background-color: rgb(65, 64, 64);
+ border: 1px solid rgb(112, 112, 112);
+ float: right;
+ margin: 10px;
+
+}
+
+#modeswitch:active {
+    background-color: rgb(146, 146, 146);
+}
+
+.text {
+
+color: var(--secondary-color);
+font-family: "Lexend",Arial, Helvetica, sans-serif;
+
+}
+
+.überschrift {
+    color: var(--secondary-color);
+    font-family: "Fjalla One",Arial, Helvetica, sans-serif;
+}
+
+.link {
+    color: var(--secondary-color);
+    font-family: "Lexend",Arial, Helvetica, sans-serif;
+
+border:2px solid black;
+
+transform: scale(1.4);
+margin-left:60px;
+
+margin-bottom: 2vh;
+
+}
+
+a{
+
+text-decoration: none;
+color:black
+
+}
+
