@@ -62,3 +62,57 @@ color:black
 
 }
 
+
+sidebar {
+display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+left side {
+    flex: 2;
+}
+
+right side {
+    flex: 1;
+    min-width: 260px
+    background-color:#1a1a1a;
+border: 1px solid #333;
+    border-radius: 8px;
+padding: 20px;
+    align-self: flexstart;
+    {
+
+    title sidebar h3 {
+        textdecoration: underline;
+        tex-underline-offset:4px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        {
+
+        mobile screen fix 
+            @media (max-width: 768px { 
+            .page-layout {
+flex-direction: column;
+            }
+        }
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
