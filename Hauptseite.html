@@ -8,19 +8,29 @@ MV Wilhelm gustloff
 
 <style>
 
-.top-right {
-    position: absolute;  
-    top: 20px;           
-    right: 20px;         
+    
 }
 </style>
 
 </head>
 
 <body>
-<div class="page-layout">
-    <main class="main-content">
+
+<button onclick="document.getElementById('mySidebar').classList.add('open')" style="positionrelative; top: 20px; right: 20px; float: right; padding: 10px 20px; cursor: pointer; margin-right: 10px; background-color: #333; color: white; border: 1px solid #555; border-radius: 4px;">Updates</button>button>
+
     
+<aside> class="sidebar" id="mySidebar"
+close panel
+    </aside>
+<h3><u>UPDATE PATCH NOTES</u></h3>
+        <br><br>
+        <p> -Added patchnote sidebar </p>
+        <br>
+        <p> -fixed survivor number <7>
+        <br>
+        <p> -fixed Torpedo count </p>
+</aside>
+        
 <button style="position: relative; top: 20px; right: 20px; float: right;">
   <a href="darkmode hauptseite.html" style="color: rgb(0, 0, 0); text-decoration: none;">Darkmode!</a>
 </button>
@@ -54,24 +64,7 @@ MV Wilhelm gustloff
 
 <script src="script.js"></script>
 
-    </main>
-
-    <aside class="sidebar">
-      <h3><u> PATCH NOTES </u> </h3>
-    <br>
-
-        -Added patch-sidebar
-        
-        <br>
-        
-        -fixed surviver number
-
-        <br>
-
-        -fixed torpedo count
-
-    </aside>
-
+    
 </div> 
     
 </body>
