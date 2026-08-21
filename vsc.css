@@ -95,15 +95,6 @@ color:black
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
     .sidebar h3 {
         textdecoration: underline;
         tex-underline-offset:4px;
@@ -111,7 +102,9 @@ color:black
         margin-bottom: 15px;
         {
 
-      
+      .sidebar.open ~ button:first-of-type {
+          right: 300px !important;
+      }
 
 
 
