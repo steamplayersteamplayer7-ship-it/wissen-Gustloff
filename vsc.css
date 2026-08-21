@@ -71,12 +71,24 @@ color:black
     background-color: #1a1a1a;
     border-left: 1px solid #333;
     padding: 20px;
-    box-shadow: 5px 0 15px rgba(o,0,0,0.5);
+    box-shadow: -5px 0 15px rgba(o,0,0,0.5);
     transform: TranslateX(100%);
     transition: transform 0.3s ease;
     z-index: 999;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
     .sidebar h3 {
         textdecoration: underline;
