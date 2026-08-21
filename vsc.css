@@ -79,7 +79,21 @@ color:black
 }
 
 
-
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100%;
+    background-color: #1a1a1a;
+    border-left: 1px solid #333;
+    padding: 20px;
+    box-shadow: -5px 0 15px rgba(o,0,0,0.5);
+    transform: TranslateX(0);
+    transition: transform 0.3s ease;
+    z-index: 999;
+    color: white;
+}
 
 
 
