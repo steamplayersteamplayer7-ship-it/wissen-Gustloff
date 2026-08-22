@@ -100,7 +100,7 @@ color:black
         tex-underline-offset:4px;
         margin-top: 0;
         margin-bottom: 15px;
-        {
+        
 
       .sidebar.open ~ button:first-of-type {
           right: 300px !important;
