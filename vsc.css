@@ -107,6 +107,7 @@ color:black
       }
 
       .sidebar p {
+          color: black; !important;
           font-size: 18px !important;
       }
 
